@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and build outputs
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime state and generated artifacts
+.runtime/
+artifacts/
+indexes/
+models/
+logs/
+*.log
+
+# Local or quarantined datasets
+data/quarantine/**
+!data/quarantine/README.md
+evals/datasets/local/
+
+# Frontend dependencies and outputs
+node_modules/
+.next/
+coverage/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
